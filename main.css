@@ -5,20 +5,22 @@ h1{
     background-color: powderblue;
     text-align: center;
     }
-    h2{
-    border: 1px solid powderblue;
-    padding: 30px;
-    text-align: center;
-    }
-    p{
+    div{
+        border: 1px solid powderblue;
+        margin: 30px;
         text-align: center;
-        padding: 25px;
+
+    }
+    h2{
+        padding: 30px;
+        text-align: center;
     }
     img{
         max-width: 100%;
         height: auto;
         opacity:.5;
     }
-    #huerta{
-        background-image: url("Dolores.Huerta.jpg")
+    .first{
+        padding: 30px;
+        text-align: center;
     }
