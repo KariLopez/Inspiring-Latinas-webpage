@@ -1,24 +1,53 @@
+body{
+    background-color: #333;
+    color:white;
+}
 h1{
-    border-style: solid powderblue;
+    border-style: solid wheat;
     margin: auto;
     border-width: medium;
-    background-color: powderblue;
+    background-color: wheat;
     text-align: center;
     }
-    h2{
-    border: 1px solid powderblue;
-    padding: 30px;
-    text-align: center;
-    }
-    p{
+div{
+        border: 1px solid wheat;
+        margin: 30px;
         text-align: center;
-        padding: 25px;
-    }
-    img{
+
+}
+h2{
+        padding: 30px;
+        text-align: center;
+}
+img{
         max-width: 100%;
         height: auto;
         opacity:.5;
-    }
-    #huerta{
-        background-image: url("Dolores.Huerta.jpg")
-    }
+}
+.first{
+        padding: 30px;
+        text-align: center;
+}
+p{
+        text-align: center;
+} 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; 
+}
+li {
+    display: inline;
+}
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: wheat;
+} 
